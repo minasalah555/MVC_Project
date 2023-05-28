@@ -1,0 +1,632 @@
+/*  Variables  */
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Poppins:wght@300;400;500;600&family=Lexend:wght@300;400;500;600&display=swap");
+
+:root {
+  /*  Position Custom */
+  --pd-main: 1rem;
+  --pd-more: calc(var(--pd-main) * 2);
+
+  /*  Text Custom Colors  */
+  --text-gray: #777;
+  --text-gray-darker: #555;
+  --light: aliceblue;
+
+  /*  Size  */
+  --fsize-main: 1rem;
+  --text-sm: calc(var(--fsize-main) * 1.2);
+  --text-norm: calc(var(--fsize-main) * 1.4);
+  --text-md: calc(var(--fsize-main) * 1.6);
+  --text-lg: calc(var(--fsize-main) * 2);
+  --text-xl: calc(var(--fsize-main) * 3);
+
+  /* Font */
+  --Poppins: "Poppins";
+  --Lexend: "Lexend";
+  --Abel: "Abel";
+
+  /*  Background  */
+  --bg-dark: #333;
+  --bg-hov-main: rgba(8, 63, 3, 0.9);
+
+  /* Gradient Color */
+  --gd-main: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  --gd-deep: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+
+  /* Border Radius  */
+  --rad-sm: 1.2rem;
+  --rad-md: 1.5rem;
+  --rad-lg: 1.7rem;
+  --rad-xl: 2rem;
+
+  /*    Transition  */
+  --time-light: 0.2s;
+  --time-fast: 0.3s;
+  --time-slow: 0.7s;
+}
+
+/* Global Styles */
+html {
+  /* font-size: 15px; */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.btn {
+  border: none;
+  padding: var(--pd-main) var(--pd-more);
+  border-radius: var(--rad-md);
+  background-color: #d3d3d3;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*  Flex Center */
+
+.flex-row,
+.flex-center,
+.flex-between {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-center {
+  justify-content: center;
+}
+.flex-between {
+  justify-content: space-between;
+}
+
+/*  Center Content  */
+.hero-center {
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.sky {
+  background-image: var(--gd-main) !important;
+}
+
+.header-title {
+  text-align: center;
+  font-size: var(--text-lg);
+}
+
+/* ------ Style Elements in Page ------ */
+
+/* --------------------------------- Header --------------------------------- */
+header {
+  background-color: var(--light);
+  min-height: 9vh;
+  height: 60px;
+  transition: height 0.4s ease-in;
+}
+header.active {
+  height: 500px;
+}
+
+header .container {
+}
+
+.container .toggle-menu {
+  /* padding: 10px; */
+  font-size: var(--text-lg);
+  display: none;
+  opacity: 0;
+  margin-left: auto;
+  text-align: right;
+  cursor: pointer;
+  transition: 0.2s;
+  width: fit-content;
+}
+
+.container .toggle-menu.active {
+  transform-origin: center;
+  transform: scale(0.9) rotate(360deg);
+}
+.container .toggle-menu.active + nav {
+  transform: translateX(0px);
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+header .container nav {
+  height: 100%;
+  transition: all 0.5s;
+  transition-delay: 0.3s;
+}
+
+@media (max-width: 860px) {
+  .flex-row {
+    flex-direction: column;
+  }
+  .flex-row li a {
+    padding: var(--pd-main) 0;
+  }
+  .flex-row div {
+    width: 100%;
+    text-align: center;
+  }
+  .flex-row div.logo,
+  .flex-row div.social {
+    margin: 10px 0;
+  }
+  .flex-row div.navbar li {
+    width: 100%;
+  }
+  header {
+    min-height: 5vh;
+    height: 0;
+  }
+  header .container nav {
+    transform: translateX(-180px);
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .container .toggle-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+nav a {
+  color: var(--text-gray-darker);
+}
+
+nav .logo h3 {
+  font-size: var(--text-md);
+}
+
+nav div * {
+  cursor: pointer;
+}
+
+nav .logo {
+}
+
+nav .navbar {
+}
+
+nav .navbar > ul {
+  list-style: none;
+  gap: 20px;
+}
+nav .navbar > ul li {
+  transition: var(--time-light);
+}
+
+nav .navbar > ul li a {
+  display: block;
+  padding: var(--pd-main);
+}
+nav .navbar > ul li:hover a {
+  /* background-color: var(--bg-hov-main); */
+  background-color: #2a26599e;
+  color: var(--light);
+}
+
+nav .social {
+}
+
+nav .social i {
+  margin-right: 10px;
+}
+
+/* ----------x---------------------- Header ----------------x--------------- */
+
+/* -------------------------------- Main Home ------------------------------- */
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../assets/bank1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .hero-content {
+  color: #fff;
+  padding: var(--pd-main);
+}
+main .hero-content h3 {
+  font-family: var(--Abel);
+  font-size: var(--text-norm);
+  font-weight: 300;
+}
+main .hero-content h1 {
+  font-family: var(--Lexend);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+main .hero-content button {
+  width: 200px;
+  font-size: var(--text-sm);
+  font-weight: 300;
+  background-image: linear-gradient(
+    to right,
+    rgb(57, 158, 240),
+    rgb(182, 217, 250)
+  );
+  transition: var(--time-light);
+}
+main .hero-content button:hover {
+  /* background-color: transparent; */
+  background-image: linear-gradient(rgba(0 0 0 / 0.8));
+  color: #000;
+  letter-spacing: 1.5px;
+  border: 1px solid #fff;
+}
+
+/* ------------x------------------ Main Home --------------x--------------- */
+
+/* ---------------------------------- blog ---------------------------------- */
+
+.blogs {
+  background-image: url(../assets/Abract01.png);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  height: 100vh;
+}
+
+.blogs .container {
+}
+
+.blog {
+  margin: 30px;
+  box-shadow: 2px 3px 5px rgba(0 0 0 / 0.3);
+  height: 100%;
+}
+
+.blog img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.blog .blog-content {
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.blog .blog-content * {
+  margin: 7px 0;
+}
+
+.blog .blog-content h3 {
+  font-size: var(--text-md);
+}
+
+.blog .blog-content button {
+  background-image: var(--gd-main);
+}
+
+/* -----------x-------------------- blog ------------------x------------- */
+
+/* ----------------------------- Content Section ---------------------------- */
+
+.content {
+  /* background-image: linear-gradient(to top, #0090c475, #2a2659); */
+  /* background-color: #008fc4; */
+}
+.content .container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.content .container .posts-wrapper {
+  padding: 20px;
+}
+
+.post {
+  width: 100%;
+  margin-bottom: var(--pd-more);
+}
+.container > .posts-wrapper .post:not(:last-of-type) {
+  border-bottom: 2px solid black;
+}
+.post-image {
+  overflow: hidden;
+}
+.post-image:hover img {
+  transform: scale(1.3);
+}
+.post img {
+  transition: 1s ease;
+  width: 100%;
+}
+.posts-wrapper .post .post-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 40%;
+  margin: 0 auto;
+  background-image: var(--gd-main);
+  padding: var(--pd-main) var(--pd-more);
+  border-radius: var(--rad-lg);
+  transform: translateY(-50%);
+}
+
+@media (max-width: 1000px) {
+  .posts-wrapper .post .post-info {
+    width: 70%;
+    font-size: 15px;
+  }
+}
+
+/* Media For post-info */
+@media (max-width: 1250px) {
+  /* .post-info {
+    display: flex !important;
+  } */
+  .content .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .content .container img {
+    display: block;
+    width: 70%;
+    margin: auto;
+  }
+}
+
+/* Media For Container of Content (Blogs, Images)*/
+@media (max-width: 400px) {
+  .content .container * {
+    font-size: 1.2rem;
+  }
+}
+
+/* Media For post-info */
+@media (max-width: 650px) {
+  .content .container img {
+    width: 100%;
+  }
+  .post .post-info {
+    display: none !important;
+  }
+}
+@media (max-width: 1800px) {
+  .popular-posts .post .post-info span {
+    flex: 1 100%;
+    text-align: center;
+  }
+}
+
+.post-info span {
+  font-weight: 300;
+}
+.post-info i {
+  margin-right: 10px;
+}
+.post-content h2 {
+  font-size: var(--text-lg);
+  margin: 10px 0;
+}
+.post-content p {
+  color: #777;
+  font-size: var(--text-sm);
+  font-weight: 500;
+}
+.post-content button {
+  margin: 20px 0;
+}
+
+.pagination {
+  flex-direction: row;
+  justify-content: center;
+}
+.pagination a {
+  display: inline-block;
+  padding: 0.5rem 0.9rem;
+  margin: 0.3rem;
+  border-radius: 1.4rem;
+}
+.pagination a.page {
+  background-color: #333;
+  color: #fff;
+}
+.pagination a.page:hover {
+  background-color: #666;
+}
+
+/* ------------x---------------- Content Section --------------x------------- */
+
+/* ----------------------------- sidebar section ---------------------------- */
+
+.sidebar {
+}
+.sidebar .category-wrapper {
+  padding: 20px;
+}
+.sidebar > div {
+  padding-bottom: 100px !important;
+}
+.sidebar > div h3 {
+  margin-bottom: 17px;
+  font-size: var(--text-lg);
+}
+
+/* Categories section */
+
+.sidebar .category-wrapper .categories {
+  padding-left: 30px;
+}
+.sidebar .category-wrapper .categories .category {
+  font-weight: 300;
+  background-image: var(--gd-main);
+  border-radius: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 7px 10px;
+  margin: 15px 0;
+}
+
+/* X Categories section X */
+
+/* Popular Posts */
+
+.sidebar > .popular-posts .post-info {
+  width: 70%;
+}
+
+/* X Popular Posts X */
+
+/* Newsletter section */
+.sidebar .newsletter {
+  /* padding: 20px; */
+}
+.sidebar .newsletter form {
+  padding: 20px 50px;
+}
+
+.sidebar .newsletter input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.sidebar .newsletter button {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+/* Popular Tags */
+
+.popular-tags {
+}
+.popular-tags .tags {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.popular-tags .tag {
+  display: block;
+  width: fit-content;
+  padding: 10px;
+  border-radius: var(--rad-md);
+  background-image: var(--gd-main);
+}
+
+/* X Popular Tags X */
+
+/* -----------x--------------- sidebar section ------------x-------------- */
+
+/* ----------------------------- Footer Section ----------------------------- */
+footer {
+  background-color: #000;
+  color: #eee;
+  padding: 20px 0 70px;
+}
+footer .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .container > div {
+  flex: 1 0 calc((100% / 4));
+  padding: 30px;
+}
+@media (max-width: 680px) {
+  footer .container > div {
+    flex: 1 0 calc(100% / 2) !important;
+  }
+}
+footer .container > div h4 {
+  margin-bottom: 10px;
+  font-size: var(--text-md);
+}
+footer .container > div p {
+  color: gray;
+}
+
+footer .about {
+}
+footer .newsletter {
+}
+footer .newsletter form {
+  display: flex;
+  align-items: center;
+}
+footer .newsletter input {
+  height: 100%;
+  padding: 10px;
+}
+footer .newsletter input::placeholder {
+  text-transform: capitalize;
+}
+footer .newsletter input:focus {
+  outline: none;
+  text-transform: capitalize;
+}
+footer .newsletter button {
+  border: none;
+  width: fit-content;
+  padding: 10px;
+  background-color: #a1c4fd;
+  /* height: 100%; */
+  border-radius: 0;
+}
+footer .instagram {
+}
+footer .instagram .images {
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+}
+footer .instagram .images img {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  /* flex: 1; */
+}
+footer .follows {
+}
+footer .follows p {
+  margin: 10px 0;
+}
+
+footer .follows i {
+  padding: 0 2px;
+}
+
+footer .container > i {
+  padding: 20px;
+  background-image: var(--gd-main);
+  background-position: 0 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+footer .container > i:hover {
+  background-position: 100px -270px;
+  background-image: var(--gd-deep);
+}
+footer .go-up {
+  margin-left: auto;
+}
+/* ---------------X------------- Footer Section ---------------x------------- */

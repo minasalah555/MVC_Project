@@ -1,0 +1,119 @@
+﻿@model University.Models.Course
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Course</h4>
+<style>
+    body {
+        background-image: url("/image/banner.jpg");
+        background-size: cover;
+    }
+
+    input {
+        margin: 5px 0;
+    }
+
+    .color {
+        padding: 1rem;
+    }
+
+    .mybtn {
+        margin-left: 430px;
+        padding-right: 1.3rem;
+        margin-top:5px;
+    }
+
+
+</style>
+<hr />
+<div class=" row gap-3 m-auto">
+    <div class="col-md-4 color m-auto">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            @if (ViewData.ModelState.ErrorCount > 0)
+            {
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach (var key in ViewData.ModelState.Keys)
+                        {
+                            var errors = ViewData.ModelState[key].Errors;
+                            foreach (var error in errors)
+                            {
+                                <li>@error.ErrorMessage</li>
+                            }
+                        }
+                    </ul>
+                </div>
+            }
+
+            <div class="form-group">
+                <input asp-for="course_name" class="form-control" placeholder="Enter Course Name" />
+                <span asp-validation-for="course_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="course_code" class="form-control" placeholder="Enter Course Code"/>
+                <span asp-validation-for="course_code" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="semester" class="form-control" placeholder="Enter Semester" value=""/>
+                <span asp-validation-for="semester" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Instructor" class="form-control" placeholder="Enter Instructor Name" />
+                <span asp-validation-for="Instructor" class="text-danger"></span>
+            </div>
+           @* <div class="form-group">
+                <label asp-for="grade" class="control-label"></label>
+                <input asp-for="grade" class="form-control" />
+                <span asp-validation-for="grade" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <input asp-for="course_credits" class="form-control" placeholder="Enter Course Credits Hours" value="" />
+                <span asp-validation-for="course_credits" class="text-danger"></span>
+            </div>
+          @*  <div class="form-group">
+                <label asp-for="gpa" class="control-label"></label>
+                <input asp-for="gpa" class="form-control" />
+                <span asp-validation-for="gpa" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <input asp-for="course_description" class="form-control" placeholder="Enter Course Description"/>
+                <span asp-validation-for="course_description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @*<input asp-for="department_id" class="form-control" />*@
+                <select asp-for="department_id" class="form-control" name="department_id">
+                    <option value="1">CS</option>
+                    <option value="2">IS</option>
+                    <option value="3">IT</option>
+                    <option value="4">AI</option>
+                    <option value="5">SE</option>
+                </select>
+                <span asp-validation-for="department_id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Course_Pic" class="form-control" type="file" name="img_file" />
+                <span asp-validation-for="Course_Pic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit"  class="btn mybtn btn-primary"> Create </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-primary">Back to List</a> |
+    <a asp-controller="Admin" asp-action="Index" class="btn btn-primary">Back to Admin Home</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

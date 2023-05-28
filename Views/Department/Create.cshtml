@@ -1,0 +1,69 @@
+﻿@model University.Models.Departments
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background-image: url("/image/banner.jpg");
+        background-size: cover;
+    }
+
+    input {
+        margin: 5px 0;
+    }
+
+
+    .mybtn {
+        margin-left: 445px;
+        padding-right: 1.3rem;
+        margin-top:3px;
+    }
+
+</style>
+
+<h1>Add New Department</h1>
+
+<hr />
+<div class="row gap-3">
+    <div class="col-md-4 m-auto">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="description" placeholder="Enter Descrption For Department" class="form-control" />
+                <span asp-validation-for="description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @*<input asp-for="department_name" class="" />*@
+                <select asp-for="department_name" name="department_name" class="form-control">
+                    <option value="1">CS</option>
+                    <option value="2">IS</option>
+                    <option value="3">IT</option>
+                    <option value="4">AI</option>
+                    <option value="5">SE</option>
+                </select>
+                <span asp-validation-for="department_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="department_Pic" class="form-control" type="file" name="img_file" />
+                <span asp-validation-for="department_Pic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit"  class="btn mybtn btn-primary"> Create </button>
+            </div>
+        </form>
+    </div>
+
+    <div>
+        <a asp-action="Index" class="btn btn-primary">Back to List</a> |
+        <a asp-controller="Admin" asp-action="Index" class="btn btn-primary">Back to Admin Home</a>
+    </div>
+
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

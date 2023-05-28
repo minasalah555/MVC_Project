@@ -1,0 +1,121 @@
+﻿@model University.Models.Student
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    body {
+        background-image: url("/image/banner.jpg");
+        background-size: cover;
+    }
+
+    input {
+        margin: 5px 0;
+    }
+
+    .color {
+        padding: 1rem;
+    }
+
+    .mybtn {
+        margin-left: 700px;
+        padding-right: 1.3rem;
+        margin-top:5px;
+
+    }
+
+</style>
+
+
+<h4>Add New Student Account</h4>
+<hr />
+
+
+<div class="row gap-3 m-auto">
+    <div class="col-md-4 w-50 m-auto color">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <!-- Add a check for ModelState errors and display error messages -->
+            @if (ViewData.ModelState.ErrorCount > 0)
+            {
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach (var key in ViewData.ModelState.Keys)
+                        {
+                            var errors = ViewData.ModelState[key].Errors;
+                            foreach (var error in errors)
+                            {
+                                <li>@error.ErrorMessage</li>
+                            }
+                        }
+                    </ul>
+                </div>
+            }
+
+            <div class="form-group">
+                <input asp-for="first_name" class="w-100 form-control" placeholder="Enter Student First Name" />
+                <span asp-validation-for="first_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="last_name" class="w-100 form-control" placeholder="Enter Student Last Name" />
+                <span asp-validation-for="last_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="age" value="" class="w-100 form-control" placeholder="Enter Student Age" />
+                <span asp-validation-for="age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="email" class="w-100 form-control" placeholder="Enter Student Email" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="address" class="form-control" placeholder="Enter Student Address" />
+                <span asp-validation-for="address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="gpa" value="" class="form-control" placeholder="Enter Student GPA" />
+                <span asp-validation-for="gpa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="contact_number" value="" class="form-control" placeholder="Enter Student Contact Number" />
+                <span asp-validation-for="contact_number" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @*<input asp-for="gender" class="form-control" placeholder="Enter Student Gender" />*@
+                <select name="gender" asp-for="gender" class="form-control">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <span asp-validation-for="gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Student_Pic" class="form-control" type="file" name="img_file" />
+                <span asp-validation-for="Student_Pic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @*<input asp-for="department_id" value="" class="form-control" placeholder="Enter Department ID" />*@
+                <select name="department_id" asp-for="department_id" class="form-control">
+                    <option value="1">CS</option>
+                    <option value="2">IS</option>
+                    <option value="3">IT</option>
+                    <option value="4">AI</option>
+                    <option value="5">SE</option>
+                </select>
+                <span asp-validation-for="department_id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="w-auto btn mybtn btn-primary"> Create </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-primary">Back to List</a> |
+    <a asp-controller="Admin" asp-action="Index" class="btn btn-primary">Back to Admin Home</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

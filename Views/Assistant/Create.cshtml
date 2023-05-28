@@ -1,0 +1,106 @@
+﻿@model University.Models.Assistant
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    body {
+        background-image: url("/image/banner.jpg");
+        background-size: cover;
+    }
+
+    input {
+        margin: 5px 0;
+    }
+
+    .color {
+        padding: 1rem;
+    }
+
+    .mybtn {
+        margin-left: 435px;
+        padding-right: 1.3rem;
+        margin-top:5px;
+    }
+  
+</style>
+
+<h1>Add New Assistant Account</h1>
+
+<hr />
+<div class="row gap-3 m-auto">
+    <div class="col-md-4 m-auto">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if (ViewData.ModelState.ErrorCount > 0)
+            {
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach (var key in ViewData.ModelState.Keys)
+                        {
+                            var errors = ViewData.ModelState[key].Errors;
+                            foreach (var error in errors)
+                            {
+                                <li>@error.ErrorMessage</li>
+                            }
+                        }
+                    </ul>
+                </div>
+            }
+            <div class="form-group">
+                <input asp-for="first_name" class="form-control" value="" placeholder="Enter Your First Name" />
+                <span asp-validation-for="first_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="last_name" class="form-control" value="" placeholder="Enter Your Last Name" />
+                <span asp-validation-for="last_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="age" class="form-control" value="" placeholder="Enter Your Age" />
+                <span asp-validation-for="age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="email" class="form-control" value="" placeholder="Enter Your Email" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="address" class="form-control" value="" placeholder="Enter Your Address" />
+                <span asp-validation-for="address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="contact_number" class="form-control" value="" placeholder="Enter Your Phone Number" />
+                <span asp-validation-for="contact_number" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Assistant_Pic" class="form-control" value="" type="file" name="img_file" />
+                <span asp-validation-for="Assistant_Pic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @*<input asp-for="department_id" class="form-control" value="" />*@
+                <select name="department_id" asp-for="department_id" class="form-control">
+                    <option value="1">CS</option>
+                    <option value="2">IS</option>
+                    <option value="3">IT</option>
+                    <option value="4">AI</option>
+                    <option value="5">SE</option>
+                </select>
+                <span asp-validation-for="department_id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn mybtn btn-primary"> Create </button>
+            </div>
+        </form>
+    </div>
+    <div>
+        <a asp-action="Index" class="btn btn-primary">Back to List</a> |
+        <a asp-controller="Admin" asp-action="Index" class="btn btn-primary">Back to Admin Home</a>
+    </div>
+
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

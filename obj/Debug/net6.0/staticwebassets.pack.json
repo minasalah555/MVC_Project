@@ -1,0 +1,821 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\University.bundle.scp.css",
+      "PackagePath": "staticwebassets\\University.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\1.jpeg",
+      "PackagePath": "staticwebassets\\Img\\1.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\381171.jpg",
+      "PackagePath": "staticwebassets\\Img\\381171.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\WhatsApp Image 2023-01-21 at 1.27.40 PM (1).jpeg",
+      "PackagePath": "staticwebassets\\Img\\WhatsApp Image 2023-01-21 at 1.27.40 PM (1).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\WhatsApp Image 2023-01-21 at 1.27.40 PM.jpeg",
+      "PackagePath": "staticwebassets\\Img\\WhatsApp Image 2023-01-21 at 1.27.40 PM.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\WhatsApp Image 2023-01-21 at 1.27.49 PM.jpeg",
+      "PackagePath": "staticwebassets\\Img\\WhatsApp Image 2023-01-21 at 1.27.49 PM.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\WhatsApp Image 2023-01-21 at 1.27.50 PM (1).jpeg",
+      "PackagePath": "staticwebassets\\Img\\WhatsApp Image 2023-01-21 at 1.27.50 PM (1).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\WhatsApp Image 2023-01-21 at 1.27.50 PM.jpeg",
+      "PackagePath": "staticwebassets\\Img\\WhatsApp Image 2023-01-21 at 1.27.50 PM.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\WhatsApp Image 2023-01-21 at 1.27.55 PM.jpeg",
+      "PackagePath": "staticwebassets\\Img\\WhatsApp Image 2023-01-21 at 1.27.55 PM.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\WhatsApp Image 2023-01-21 at 1.28.01 PM (1).jpeg",
+      "PackagePath": "staticwebassets\\Img\\WhatsApp Image 2023-01-21 at 1.28.01 PM (1).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\d12.jpeg",
+      "PackagePath": "staticwebassets\\Img\\d12.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\d2.jpeg",
+      "PackagePath": "staticwebassets\\Img\\d2.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\d3.jpeg",
+      "PackagePath": "staticwebassets\\Img\\d3.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download (1).jpeg",
+      "PackagePath": "staticwebassets\\Img\\download (1).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download (1).png",
+      "PackagePath": "staticwebassets\\Img\\download (1).png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download (10).jpeg",
+      "PackagePath": "staticwebassets\\Img\\download (10).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download (11).jpeg",
+      "PackagePath": "staticwebassets\\Img\\download (11).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download (12).jpeg",
+      "PackagePath": "staticwebassets\\Img\\download (12).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download (13).jpeg",
+      "PackagePath": "staticwebassets\\Img\\download (13).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download (14).jpeg",
+      "PackagePath": "staticwebassets\\Img\\download (14).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download (15).jpeg",
+      "PackagePath": "staticwebassets\\Img\\download (15).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download (3).jpeg",
+      "PackagePath": "staticwebassets\\Img\\download (3).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download (4).jpeg",
+      "PackagePath": "staticwebassets\\Img\\download (4).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download (6).jpeg",
+      "PackagePath": "staticwebassets\\Img\\download (6).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download (7).jpeg",
+      "PackagePath": "staticwebassets\\Img\\download (7).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download (8).jpeg",
+      "PackagePath": "staticwebassets\\Img\\download (8).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download.jpeg",
+      "PackagePath": "staticwebassets\\Img\\download.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\download.png",
+      "PackagePath": "staticwebassets\\Img\\download.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\images (1).jpeg",
+      "PackagePath": "staticwebassets\\Img\\images (1).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\images (2).jpeg",
+      "PackagePath": "staticwebassets\\Img\\images (2).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\images (3).jpeg",
+      "PackagePath": "staticwebassets\\Img\\images (3).jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\images.jpeg",
+      "PackagePath": "staticwebassets\\Img\\images.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\images.png",
+      "PackagePath": "staticwebassets\\Img\\images.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\istockphoto-1351445530-612x612.jpg",
+      "PackagePath": "staticwebassets\\Img\\istockphoto-1351445530-612x612.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\portrait-cheerful-male-international-indian-260nw-2071252046.webp",
+      "PackagePath": "staticwebassets\\Img\\portrait-cheerful-male-international-indian-260nw-2071252046.webp"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\portrait-smiling-young-college-student-260nw-1192615495.webp",
+      "PackagePath": "staticwebassets\\Img\\portrait-smiling-young-college-student-260nw-1192615495.webp"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\s4.jpeg",
+      "PackagePath": "staticwebassets\\Img\\s4.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\s5.jpeg",
+      "PackagePath": "staticwebassets\\Img\\s5.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Img\\s6.jpeg",
+      "PackagePath": "staticwebassets\\Img\\s6.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master.zip",
+      "PackagePath": "staticwebassets\\Secur-master.zip"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\_gitignore",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Abract01.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Abract01.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Background-image-2.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Background-image-2.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Background-image.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Background-image.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\blog1.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\blog1.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\blog2.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\blog2.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\blog3.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\blog3.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\blog4.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\blog4.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\feature-img1.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\feature-img1.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\post-1.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\post-1.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\post-10.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\post-10.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\post-2.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\post-2.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\post-3.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\post-3.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\post-4.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\post-4.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\post-5.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\post-5.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\post-6.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\post-6.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\post-7.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\post-7.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\post-8.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\post-8.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\Blog-post\\post-9.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\Blog-post\\post-9.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\bank1.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\bank1.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\bank2.webp",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\bank2.webp"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\bank3.webp",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\bank3.webp"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\bank4.webp",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\bank4.webp"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\front1.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\front1.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\front10.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\front10.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\front2.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\front2.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\front3.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\front3.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\front4.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\front4.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\front5.jpeg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\front5.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\front6.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\front6.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\front7.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\front7.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\front8.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\front8.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\front9.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\front9.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\instagram\\thumb-card3.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\instagram\\thumb-card3.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\instagram\\thumb-card4.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\instagram\\thumb-card4.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\instagram\\thumb-card5.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\instagram\\thumb-card5.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\instagram\\thumb-card6.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\instagram\\thumb-card6.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\instagram\\thumb-card7.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\instagram\\thumb-card7.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\instagram\\thumb-card8.png",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\instagram\\thumb-card8.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\muslim1.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\muslim1.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\muslim2.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\muslim2.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\muslim3.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\muslim3.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\muslim4.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\muslim4.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\assets\\muslim5.jpg",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\assets\\muslim5.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\css\\aos.css",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\css\\aos.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\css\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\css\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\css\\style.css",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\css\\style.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\index.html",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\index.html"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\js\\aos.js",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\js\\aos.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\js\\main.js",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\js\\main.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\Secur-master\\Secur-master\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Secur-master\\Secur-master\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\css\\UIForm.css",
+      "PackagePath": "staticwebassets\\css\\UIForm.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\css\\aos.css",
+      "PackagePath": "staticwebassets\\css\\aos.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\css\\assistant.css",
+      "PackagePath": "staticwebassets\\css\\assistant.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\css\\doctor.css",
+      "PackagePath": "staticwebassets\\css\\doctor.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\css\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\css\\student.css",
+      "PackagePath": "staticwebassets\\css\\student.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\css\\subject.css",
+      "PackagePath": "staticwebassets\\css\\subject.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\image\\banner.jpg",
+      "PackagePath": "staticwebassets\\image\\banner.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\1.jpeg",
+      "PackagePath": "staticwebassets\\images\\1.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\CS_Faculty.jpeg",
+      "PackagePath": "staticwebassets\\images\\CS_Faculty.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\Screenshot 2023-05-10 165850.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2023-05-10 165850.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\arts-faculty.jpeg",
+      "PackagePath": "staticwebassets\\images\\arts-faculty.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\arts.jpg",
+      "PackagePath": "staticwebassets\\images\\arts.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\assistants.webp",
+      "PackagePath": "staticwebassets\\images\\assistants.webp"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\computer-science.jpg",
+      "PackagePath": "staticwebassets\\images\\computer-science.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\cs1.jpg",
+      "PackagePath": "staticwebassets\\images\\cs1.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\d12.jpeg",
+      "PackagePath": "staticwebassets\\images\\d12.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\d3.jpeg",
+      "PackagePath": "staticwebassets\\images\\d3.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\doctors.jpg",
+      "PackagePath": "staticwebassets\\images\\doctors.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\engineering.jpg",
+      "PackagePath": "staticwebassets\\images\\engineering.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\fast.png",
+      "PackagePath": "staticwebassets\\images\\fast.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\law.jpg",
+      "PackagePath": "staticwebassets\\images\\law.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\logo-aun.png",
+      "PackagePath": "staticwebassets\\images\\logo-aun.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\manager.jpg",
+      "PackagePath": "staticwebassets\\images\\manager.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\medicine.jpg",
+      "PackagePath": "staticwebassets\\images\\medicine.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\pharmacy.jpeg",
+      "PackagePath": "staticwebassets\\images\\pharmacy.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\s2.jpeg",
+      "PackagePath": "staticwebassets\\images\\s2.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\s4.jpeg",
+      "PackagePath": "staticwebassets\\images\\s4.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\s5.jpeg",
+      "PackagePath": "staticwebassets\\images\\s5.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\science.jpeg",
+      "PackagePath": "staticwebassets\\images\\science.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\univ1.jpeg",
+      "PackagePath": "staticwebassets\\images\\univ1.jpeg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\univ2.jpg",
+      "PackagePath": "staticwebassets\\images\\univ2.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\univ3.jpg",
+      "PackagePath": "staticwebassets\\images\\univ3.jpg"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\images\\university_logo.png",
+      "PackagePath": "staticwebassets\\images\\university_logo.png"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\js\\aos.js",
+      "PackagePath": "staticwebassets\\js\\aos.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\js\\slider-banner.js",
+      "PackagePath": "staticwebassets\\js\\slider-banner.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\js\\typing_effect.js",
+      "PackagePath": "staticwebassets\\js\\typing_effect.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\LevelThree(SecondTetm)\\system_daysin\\Team 41\\University\\University\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.University.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.University.props",
+      "PackagePath": "build\\University.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.University.props",
+      "PackagePath": "buildMultiTargeting\\University.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.University.props",
+      "PackagePath": "buildTransitive\\University.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

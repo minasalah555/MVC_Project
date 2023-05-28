@@ -1,0 +1,112 @@
+﻿@model University.Models.proffessor
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    body {
+        background-image: url("/image/banner.jpg");
+        background-size: cover;
+    }
+
+    input {
+        margin: 5px 0;
+    }
+
+    .color {
+        padding: 1rem;
+    }
+
+    .mybtn {
+        margin-left: 440px;
+        padding-right: 1.3rem;
+        margin-top:5px;
+
+    }
+ 
+
+</style>
+<h1>Add New Professors Account</h1>
+
+<hr />
+<div class="row gap-3 m-auto">
+    <div class="col-md-4 m-auto">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if (ViewData.ModelState.ErrorCount > 0)
+            {
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach (var key in ViewData.ModelState.Keys)
+                        {
+                            var errors = ViewData.ModelState[key].Errors;
+                            foreach (var error in errors)
+                            {
+                                <li>@error.ErrorMessage</li>
+                            }
+                        }
+                    </ul>
+                </div>
+            }
+
+            <div class="form-group">
+                <input asp-for="first_name" class="form-control" placeholder="Enter Your First Name" value="" />
+                <span asp-validation-for="first_name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input asp-for="last_name" class="form-control" placeholder="Enter Your Last Name" value="" />
+                <span asp-validation-for="last_name" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <input asp-for="age" class="form-control" placeholder="Enter Age (e.g 30)" value="" />
+                <span asp-validation-for="age" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input asp-for="email" class="form-control" placeholder="Enter Email Address" value="" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input asp-for="address" class="form-control" placeholder="Enter Your Address" value="" />
+                <span asp-validation-for="address" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input asp-for="contact_number" class="form-control" placeholder="Enter Phone Number" value="" />
+                <span asp-validation-for="contact_number" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="doctor_Pic" class="form-control" type="file" name="img_file" />
+                <span asp-validation-for="doctor_Pic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @*<input asp-for="department_id" class="form-control" placeholder="Enter Your Department ID" value=""/>*@
+                <select asp-for="department_id" class="form-control" name="department_id">
+                    <option value="1">CS</option>
+                    <option value="2">IS</option>
+                    <option value="3">IT</option>
+                    <option value="4">AI</option>
+                    <option value="5">SE</option>
+                </select>
+                <span asp-validation-for="department_id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn mybtn btn-primary">Create</button>
+            </div>
+        </form>
+    </div>
+    <div>
+        <a asp-controller="Admin" asp-action="Index" class="btn btn-primary">Back to Admin Home</a> |
+        <a class="btn btn-primary" asp-action="Index">Back to List</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+

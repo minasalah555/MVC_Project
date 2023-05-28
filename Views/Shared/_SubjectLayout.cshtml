@@ -1,0 +1,13 @@
+﻿@using University.Models
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section styles{
+    <link rel="stylesheet" href="~/css/subject.css" asp-append-version="true" />
+}
+@model List<Course>
+<div class="banner">
+    <!--<img src="" />-->
+</div>
+@RenderBody()

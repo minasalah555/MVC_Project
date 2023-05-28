@@ -1,0 +1,56 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<CartItem>
+
+<h2>Courses Selected</h2>
+@if(Model.Count > 0)
+{
+    <form asp-action="CheckOut" asp-controller="Course">
+    <table class="table">
+      <thead>
+        <tr>
+            <th>course code</th>
+            <th>Name</th>
+            <th>Credit Hours</th>
+            <th></th>
+        </tr>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.course_id</td>
+                    <td>@item.course_name</td>
+                    <td>@item.creditHour</td>
+                    <td> <a asp-action="RemoveFromCart" asp-controller="Course" asp-route-id="@item.course_id" class="btn btn-primary">Remove from Cart</a></td>
+                </tr>
+            }
+            <tr>
+                <td colspan="2">Total of Credits Hours</td>
+                <td>
+                            @{
+                                   int total = 0;
+                              }
+                            @foreach(var item in Model)
+                            {
+                                total = total + item.creditHour;
+
+
+                            }
+                            @total
+                </td>
+            </tr>
+
+        </tbody>
+
+
+        </thead>
+    </table>
+    <button type="submit">CheckOut</button>
+    </form>
+}else{
+
+    <h3>Empty Cart..!</h3>
+}

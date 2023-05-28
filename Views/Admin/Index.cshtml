@@ -1,0 +1,95 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles {
+    <link rel="stylesheet" href="~/css/dashboard.css">
+}
+
+<div class="container">
+<div id="grid-controls">
+    <!-- Sidebar -->
+    @*<div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="/">
+                    UnivX
+                </a>
+            </li>
+            <li>
+                <a asp-controller="Student" asp-action="Index">Students</a>
+            </li>
+            <li>
+                <a asp-controller="Proffessor" asp-action="Index">Professors</a>
+            </li>
+            <li>
+                <a asp-controller="Assistant" asp-action="Index">Assistants</a>
+            </li>
+            <li>
+                <a asp-controller="Department" asp-action="Index">Departments</a>
+            </li>
+            <li>
+                <a asp-controller="Course">Courses</a>
+            </li>
+        </ul>
+    </div>*@
+    <!-- /#sidebar-wrapper -->
+	<div class="courses-container">
+		<div class="course">
+			<div class="course-preview">
+                    <img src="https://th.bing.com/th/id/OIP.hjFMDZZZK0pcKcMG1WoFlwHaE0?pid=ImgDet&rs=1" />
+			</div>
+			<div class="course-info">
+				<h2>Students</h2>
+                <a asp-controller="Student" asp-action="Index" class="btn btn-primary">Continue</a>
+			</div>
+		</div>
+	</div>
+    <div class="courses-container">
+        <div class="course">
+            <div class="course-preview">
+                    <img src="https://th.bing.com/th/id/R.594393d7b40d86fe743bbf2d896b8737?rik=wWuGMUp0nqcyeg&riu=http%3a%2f%2fwww.helios7.com%2fwp-content%2fuploads%2f2018%2f02%2fprofessor-university.jpg&ehk=KKkAsN%2fXyxZK9kfgYGd0LP4%2fvnI%2bUPYZpS7gBHoq57I%3d&risl=&pid=ImgRaw&r=0" />
+            </div>
+            <div class="course-info">
+                <h2>Professors</h2>
+                    <a asp-controller="Proffessor" asp-action="Index" class="btn btn-primary">Continue</a>
+            </div>
+        </div>
+    </div>
+    <div class="courses-container">
+        <div class="course">
+            <div class="course-preview">
+                    <img src="https://th.bing.com/th/id/OIP.V9J_eR4eFMNjNWu_7Ay9kAHaEe?pid=ImgDet&rs=1" />
+            </div>
+            <div class="course-info">
+                <h2>Assistants</h2>
+                    <a class="btn btn-primary"asp-controller="Assistant" asp-action="Index">Continue</a>
+            </div>
+        </div>
+    </div>
+    <div class="courses-container">
+        <div class="course">
+            <div class="course-preview">
+                    <img src="https://th.bing.com/th/id/R.691ae713905671b98be15aae026df4c2?rik=AryojJ93ci4WiQ&pid=ImgRaw&r=0" />
+            </div>
+            <div class="course-info">
+                <h2>Department</h2>
+                <a class="btn btn-primary"asp-controller="Department" asp-action="Index">Continue</a>
+            </div>
+        </div>
+    </div>
+    <div class="courses-container">
+        <div class="course">
+            <div class="course-preview">
+                    <img src="https://coderevolution.ro/wp-content/uploads/2019/06/online-courses-2.jpg" />
+            </div>
+            <div class="course-info">
+                <h2>Course</h2>
+                <a class="btn btn-primary"asp-controller="Course" asp-action="Index">Continue</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>

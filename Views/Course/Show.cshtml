@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section links {
+      <li class="nav-item">
+        <a class="nav-link text-dark myregister" asp-area="" asp-controller="Course" asp-action="Cart">Cart</a>
+        </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark mylogin" asp-area="" asp-controller="Student" asp-action="StudentHistory">StudentHistory</a>
+     </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark mylogin" asp-area="" asp-controller="Course" asp-action="Show">Available Courses</a>
+      </li>
+}
+@model List<Course>
+<h1>college courses</h1>
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model){
+        <div class="col-md-4 mb-4">
+            <div class="card box-shadow p-1">
+                <div>
+                    Title: @item.course_name
+                </div>  
+                <img class="card-img-top" src="~/Img/@item.Course_Pic" />
+                <ul class="list-group">
+                    <li class="list-group-item">Instructor: @item.Instructor</li>
+                    <li class="list-group-item">Cred: @item.course_credits</li>
+                        <li class="list-group-item"><a asp-action="AddToCart" asp-controller="Course" asp-route-id="@item.course_id" class="btn btn-primary">Add to Cart</a> </li>
+                </ul>
+            </div>
+
+        </div>
+        }
+
+    </div>
+</div>

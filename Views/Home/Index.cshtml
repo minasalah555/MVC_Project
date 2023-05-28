@@ -1,0 +1,93 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Home";
+}
+
+@section styles {
+    <!-- ------------------------------ Carousel Library CSS ------------------------------- -->
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css" />
+
+    <!-- --------------------------------- AOS Library --------------------------------- -->
+
+    <link rel="stylesheet" href="~/css/aos.css" />
+}
+
+@section Scripts {
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/aos.js"></script>
+    <script src="~/js/site.js"></script>
+
+    <script src="~/js/slider-banner.js"></script>
+    <script src="~/js/typing_effect.js"></script>
+}
+
+@* Greeting Section *@
+<div class="banner m-auto">
+    <h1 id="greet-guest"></h1>
+</div>
+
+@* About Section *@
+<div class="container m-auto row justify-content-around p-5">
+    <div data-aos="fade-right" class="col">
+        <img class="w-100" src="~/images/s2.jpeg"/>
+    </div>
+    <div data-aos="fade-left" class="col d-flex flex-column align-content-between">
+        <h3 class="fw-bolder">Welcome to Assiut University</h3>
+        <p>
+            <span class="fw-bold">Assiut University</span> is a governmental university which mobilizes and directs its potentialities for the realization of its vision by providing the education required for the present and the future,
+            graduating generations that can compete in labor market at both the local and international levels,
+            and qualifying for excellence in the development of scientific research and technology,
+            and research programs which contribute to the society development within university ethics.
+        </p>
+
+        <a class="btn btn-primary"  asp-action="about">About US</a>
+    </div>
+</div>
+
+@* About Section *@
+<div class="bg-dark bg-opacity-10 text-black">
+
+    <div class="container m-auto row flex-end justify-content-around p-5" data-aos="fade-up" data-aos-del="3000">
+        <div class="order-1 col d-flex">
+            <img class="w-50 m-auto" src="~/images/manager.jpg" />
+        </div>
+        <div class="order-0 col d-flex flex-column align-content-between">
+            <h3 class="fw-bolder">AUN team wants to welcome you to its leading institution!</h3>
+            <blockquote>
+                <span class="fw-bold text-black"> University President</span> AUN is a vibrant community of multicultural staff and students from across the world.
+            Each of you has something special to contribute to this university,
+            and I want to make sure that you all feel at home on our campuses.
+            Assiut University is more than just a place to get an education—it's where students come to be transformed.
+            AUN is an inclusive university that addresses the challenges of the future with a cutting-edge teaching, research,
+            and facilities. As a university we are committed to work tirelessly and to help students undergo an intellectual,
+            social, and personal transformation far beyond the traditional college experience.
+            We offer you a great opportunity to make real change, so make the best out of your years here.
+            While your academic success is important.
+
+            <sub class="d-block my-2 text-black">Prof/Ahmed Mohamed Kamal Mahmoud El-Minshawy</sub>
+            </blockquote>
+        <a class="btn btn-primary" asp-action="about-manager">Read more</a>
+    </div>
+</div>
+</div>
+
+<div class="separator">
+    <h3 class="text-center">Faculties</h3>
+</div>
+
+<div class="testimonial">
+    <div class="slider">
+        <div @*data-aos="flip-left"*@>
+            <div class="info">
+                <h4></h4>
+            </div>
+            @*<img src="~/images/arts-faculty.jpeg"/>*@
+        </div>
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,32 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="wrapper">
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="/">
+                    UnivX
+                </a>
+            </li>
+            <li>
+                <a asp-controller="StudentController">Students</a>
+            </li>
+            <li>
+                <a asp-controller="PoffessorController">Professors</a>
+            </li>
+            <li>
+                <a asp-controller="AssistantController">Assistants</a>
+            </li>
+            <li>
+                <a asp-controller="DepartmentController">Departments</a>
+            </li>
+            <li>
+                <a asp-controller="SubjectController">Courses</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+</div>
